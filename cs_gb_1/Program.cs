@@ -6,10 +6,8 @@ namespace cs_gb_1
     {
         static void Main(string[] args)
         {
-            string name; // имя
-            Console.WriteLine("Введите имя");
-            name = Console.ReadLine();
-            Console.WriteLine($"Привет {name}, сегодня {DateTime.Now.Date.ToString("dd.MM.yyyy")}");
+
+            Console.WriteLine($"Привет.");
         }
     }
 }
